@@ -13,6 +13,7 @@ public class Book {
         this.isbn = isbn;
         this.title = title;
         this.edition = edition;
+        this.author = author;
     }
 
     public void setIsbn(long isbn) {
@@ -45,7 +46,7 @@ public class Book {
     }
 
     public String getBookDetails() {
-        System.out.println("Booka{isbn=" + this.isbn + ",title=" + this.title + ",edition=" + this.edition);
+        System.out.println("Book{isbn=" + book.isbn + ",title=" + book.title + ",edition=" + book.edition +",aurhor=Author{name='"+author.name+"',country='"+author.country+",}");
         return null;
 
     }
